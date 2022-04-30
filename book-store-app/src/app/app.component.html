@@ -1,6 +1,14 @@
 <app-header></app-header>
 <app-nav></app-nav>
 <app-slide-show></app-slide-show>
-<app-books-list></app-books-list>
-<app-footer></app-footer>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <app-books-list></app-books-list>
+    </div>
+    <div class="row">
+        <div class="col">
+          <app-footer></app-footer>
+        </div>
+      </div>
+</div>
 <router-outlet></router-outlet>

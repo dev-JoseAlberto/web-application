@@ -15,14 +15,26 @@ export class BooksListComponent implements OnInit {
 
   ngOnInit(): void {
     this.books = [
-      {
-        name:'Data Science for Business: What you need to know about data mining and data-analytic thinking',
-        price:59.83,
+      { 
+        id:1,
+        urlImage:'/assets/images/image04.jpg',
+        name:'Data Science for Business',
+        author:'Foster Provost & Tom Fawcett',
+        price:32.14,
         quantity:1,
         category:"Business"
-    
-
+      },
+      { 
+        id:2,
+        urlImage:'/assets/images/image05.jpg',
+        name:'Storytelling with Data: Lets Practice!',
+        author:'Cole Nussbaumer Knaflic',
+        price:24.12,
+        quantity:1,
+        category:"Business & Money"
       }
+
+
     ]
   }
 
